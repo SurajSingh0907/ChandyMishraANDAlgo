@@ -1,0 +1,37 @@
+======== Welcome to Chandy-Mishra AND Algorithm @written by Suraj Singh =========
+
+::::: Options:<code> ::::
+1. RunAlgo: run
+2. End: end
+Enter your choice :run
+Enter no. of processes :5
+Now enter dependecies across processes
+P1 | P2 | P3 | P4 | P5 |
+
+Enter complete row 1 (space separated) having 5 elements :
+0 1 0 0 0
+Enter complete row 2 (space separated) having 5 elements :
+0 0 1 0 0
+Enter complete row 3 (space separated) having 5 elements :
+0 0 0 1 0
+Enter complete row 4 (space separated) having 5 elements :
+0 0 0 0 1
+Enter complete row 5 (space separated) having 5 elements :
+1 0 0 0 0
+Build Dependecies graph as follows:
+P1 | P2 | P3 | P4 | P5 |
+0 1 0 0 0
+0 0 1 0 0
+0 0 0 1 0
+0 0 0 0 1
+1 0 0 0 0
+Enter process no. of initiator :
+2
+=========== Start Execution for Chandy Mishra AND Algorithm for DeadLock Detection ==========
+Probe loop found on : (2 , 1 , 2) :
+XXXXXXXXXXXXXXX Deadlock Detected XXXXXXXXXXXXXXXXX
+
+::::: Options:<code> ::::
+1. RunAlgo: run
+2. End: end
+Enter your choice :end
